@@ -8,19 +8,19 @@ int main() {
     scanf("%d", &cap_disco);
     printf("Ingrese la cantidad de documentos: ");
     scanf("%d", &cant_doc);
-    printf("Ingrese el tamaño promedio de los documentos en MB: ");
+    printf("Ingrese el tamaño de los documentos en MB: ");
     scanf("%f", &tam_doc);
     printf("Ingrese la cantidad de imágenes: ");
     scanf("%d", &cant_img);
-    printf("Ingrese el tamaño promedio de las imágenes en MB: ");
+    printf("Ingrese el tamaño de las imágenes en MB: ");
     scanf("%f", &tam_img);
     printf("Ingrese la cantidad de videos: ");
     scanf("%d", &cant_vid);
-    printf("Ingrese el tamaño promedio de los videos en MB: ");
+    printf("Ingrese el tamaño de los videos en MB: ");
     scanf("%f", &tam_vid);
     printf("Ingrese la cantidad de programas: ");
     scanf("%d", &cant_prog);
-    printf("Ingrese el tamaño promedio de los programas en MB: ");
+    printf("Ingrese el tamaño de los programas en MB: ");
     scanf("%f", &tam_prog);
 
     esp_doc = cant_doc * tam_doc;
