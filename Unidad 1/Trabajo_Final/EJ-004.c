@@ -4,14 +4,12 @@ void main() {
     int MAYORIA_EDAD = 18;
     char nombre[50] = "";
     int anio_nacimiento, anio_actual, edad, minimo = 0;
-
-    // Entrada
+    //Entrada
     printf("Ingrese el nombre: ");
     scanf(" %49[^\n]", nombre);
     printf("Ingrese el año de nacimiento y el actual: ");
     scanf("%d %d", &anio_nacimiento, &anio_actual);
-
-    // Proceso y salida
+    //Proceso y salida
     if (anio_nacimiento < 0 || anio_actual < anio_nacimiento) {
         printf("Fechas invalidas: no se permiten edades negativas\n");
     } else {

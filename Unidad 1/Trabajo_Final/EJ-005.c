@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 void main() {
-    int a = 0, residuo = 0;
-
-    // Entrada
+    int a, residuo = 0;
+    //Entrada
     printf("Ingrese un numero entero: ");
     scanf("%d", &a);
-
-    // Proceso
-    printf("Calculando el residuo y verificando el resultado...\n");
+    //Proceso
     residuo = a % 7;
-
-    // Salida
+    //Salida
     printf("Residuo: %d\n", residuo);
     if (residuo == 0 && a > 0)
         printf("Es multiplo de 7\n");
