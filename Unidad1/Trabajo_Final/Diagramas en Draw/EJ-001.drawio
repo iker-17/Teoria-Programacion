@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="EJ-001" name="EJ-001">
+    <mxGraphModel dx="2644" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Inicio" vertex="1">
+          <mxGeometry height="50" width="100" x="345" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;Ingrese tres numeros&#xa;enteros:&quot;" vertex="1">
+          <mxGeometry height="60" width="280" x="255" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Leer x&#xa;Leer u&#xa;Leer val2" vertex="1">
+          <mxGeometry height="80" width="180" x="305" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="suma = x + u + val2&#xa;producto = x * u * val2&#xa;promedio = suma / 3.0" vertex="1">
+          <mxGeometry height="80" width="260" x="265" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;Suma: &quot;, suma&#xa;Escribir &quot;Producto: &quot;, producto&#xa;Escribir &quot;Promedio: &quot;, promedio" vertex="1">
+          <mxGeometry height="90" width="300" x="245" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="promedio &gt; 0" vertex="1">
+          <mxGeometry height="70" width="120" x="335" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;El promedio es&#xa;positivo&quot;" vertex="1">
+          <mxGeometry height="60" width="170" x="116" y="547" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="promedio &lt; 0" vertex="1">
+          <mxGeometry height="70" width="120" x="335" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;El promedio es&#xa;negativo&quot;" vertex="1">
+          <mxGeometry height="60" width="170" x="310" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;El promedio es&#xa;neutro&quot;" vertex="1">
+          <mxGeometry height="60" width="170" x="515" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;Operaciones: suma,&#xa;producto y promedio&quot;" vertex="1">
+          <mxGeometry height="70" width="220" x="285" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Fin" vertex="1">
+          <mxGeometry height="50" width="80" x="355" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="1000" edge="1" parent="1" source="2" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1001" edge="1" parent="1" source="3" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1002" edge="1" parent="1" source="4" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1003" edge="1" parent="1" source="5" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1004" edge="1" parent="1" source="6" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1005" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="194" y="915" />
+            </Array>
+            <mxPoint x="194" y="610" as="sourcePoint" />
+            <mxPoint x="284" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1006" edge="1" parent="1" source="10" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1007" edge="1" parent="1" source="11" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="12" value="">
+          <mxGeometry relative="1" x="0.0109" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="915" />
+            </Array>
+            <mxPoint x="715" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1008" edge="1" parent="1" source="12" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1009" edge="1" parent="1" source="7" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8" value="Si">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="299.99999999999955" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1010" edge="1" parent="1" source="7" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="9" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1011" edge="1" parent="1" source="9" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="10" value="Si">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1012" edge="1" parent="1" source="9" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

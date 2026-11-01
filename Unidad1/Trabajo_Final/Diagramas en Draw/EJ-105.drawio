@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="EJ-105" name="EJ-105">
+    <mxGraphModel dx="1350" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Inicio" vertex="1">
+          <mxGeometry height="50" width="100" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Leer nota1&#xa;Leer nota2&#xa;Leer nota3" vertex="1">
+          <mxGeometry height="90" width="160" x="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="suma_total = nota1 + nota2 + nota3&#xa;menor = nota1&#xa;Si nota2 &lt; menor, menor = nota2&#xa;Si nota3 &lt; menor, menor = nota3&#xa;promedio = (suma_total - menor) / 2&#xa;resultado_dividido = promedio / DIVISOR_EXTRA" vertex="1">
+          <mxGeometry height="130" width="340" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir menor&#xa;Escribir promedio&#xa;Escribir resultado_dividido" vertex="1">
+          <mxGeometry height="80" width="220" x="150" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Fin" vertex="1">
+          <mxGeometry height="50" width="80" x="220" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="1000" edge="1" parent="1" source="2" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1001" edge="1" parent="1" source="3" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1002" edge="1" parent="1" source="4" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1003" edge="1" parent="1" source="5" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

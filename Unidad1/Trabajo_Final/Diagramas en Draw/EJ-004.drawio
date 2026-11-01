@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram id="EJ-004" name="EJ-004">
+    <mxGraphModel dx="1983" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Inicio" vertex="1">
+          <mxGeometry height="50" width="100" x="220" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Leer nombre&#xa;Leer anio_nacimiento&#xa;Leer anio_actual" vertex="1">
+          <mxGeometry height="90" width="180" x="180" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="anio_nacimiento &lt; 0&#xa;o anio_actual &lt; anio_nacimiento" vertex="1">
+          <mxGeometry height="90" width="160" x="190" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;Fechas invalidas&quot;" vertex="1">
+          <mxGeometry height="50" width="170" x="470" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="edad = anio_actual - anio_nacimiento&#xa;minimo = edad&#xa;Si anio_nacimiento &lt; minimo, minimo = anio_nacimiento&#xa;Si anio_actual &lt; minimo, minimo = anio_actual" vertex="1">
+          <mxGeometry height="100" width="400" x="70" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="edad &gt;= MAYORIA_EDAD" vertex="1">
+          <mxGeometry height="80" width="180" x="180" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir nombre, edad&#xa;&quot;es mayor de edad&quot;" vertex="1">
+          <mxGeometry height="60" width="190" x="40" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir nombre, edad&#xa;&quot;es menor de edad&quot;" vertex="1">
+          <mxGeometry height="60" width="190" x="330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Escribir &quot;Valor minimo: &quot;, minimo" vertex="1">
+          <mxGeometry height="50" width="220" x="160" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;fillColor=#FFFFFF;fontColor=#000000;strokeColor=#000000;" value="Fin" vertex="1">
+          <mxGeometry height="50" width="80" x="230" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="1000" edge="1" parent="1" source="2" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1001" edge="1" parent="1" source="3" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1002" edge="1" parent="1" source="5" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1003" edge="1" parent="1" source="6" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1004" edge="1" parent="1" source="8" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1005" edge="1" parent="1" source="9" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1006" edge="1" parent="1" source="10" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1007" edge="1" parent="1" source="4" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="5" value="Si">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1008" edge="1" parent="1" source="4" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="6" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1009" edge="1" parent="1" source="7" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="8" value="Si">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1010" edge="1" parent="1" source="7" style="endArrow=block;html=1;rounded=0;orthogonalLoop=1;jettySize=auto;orthogonal=1;strokeColor=#000000;fontColor=#000000;fontSize=12;" target="9" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
